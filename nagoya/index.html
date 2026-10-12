@@ -11,7 +11,7 @@ small{color:#666}footer{font-size:.8rem;color:#555;padding:16px;max-width:960px;
 <p><small>名古屋市上下水道局が指定した市指定給水装置工事事業者です。</small></p>
 <div class="f"><input id="q" placeholder="事業者名・住所で検索"><select id="mu"><option value="">区：すべて</option></select><select id="rep"><option value="">業務内容：すべて</option><option value="水道の修理">水道の修理 対応</option><option value="水道の工事">水道の新築・改造工事 対応</option><option value="下水">下水道工事も可</option></select></div>
 <div id="n"></div><div id="b"></div><p id="more"></p></div>
-<footer>出典：<a href="https://www.water.city.nagoya.jp/subsys/shop/" target="_blank" rel="noopener">名古屋市上下水道局 工事店検索</a>（2026-10-12取得の公開名簿をもとに作成。最新情報は各公式サイトでご確認ください）</footer>
+<footer>出典：名古屋市上下水道局</footer>
 <div id="m" onclick="if(event.target==this)this.style.display='none'"><div><p id="mt"></p><button onclick="document.getElementById('m').style.display='none'">閉じる</button></div></div>
 <script>
 let D=[];const $=i=>document.getElementById(i);const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));const norm=s=>s.normalize('NFKC').toLowerCase();
