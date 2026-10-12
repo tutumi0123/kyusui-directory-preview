@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tutumi0123.github.io/kyusui-directory-preview/sitemap.xml
